@@ -1,0 +1,94 @@
+.hud {
+    position: absolute;
+    bottom: 1%;
+    left: 1%;
+}
+
+.hexagono {
+    display: inline-block;
+    position: relative;
+    width: 2.6vw;
+    height: 2.4vw; /* width * 0.866 */
+    background: #989AA8;
+    clip-path: polygon(20% 0%, 80% 0%, 100% 50%, 80% 100%, 20% 100%, 0% 50%);
+    transform: rotate(-90deg);
+    border-radius: 1vw;
+    /* display: flex-inline; */
+}
+
+.progressvoice {
+    position: absolute;
+    height: 100%;
+    width: 50%;
+    background-color: #3BC278;
+    animation: .3s;
+}
+
+.progresshealth {
+    position: absolute;
+    height: 100%;
+    width: 50%;
+    background-color: #3BC278;
+    animation: .3s;
+}
+
+.progressshield {
+    position: absolute;
+    height: 100%;
+    width: 10%;
+    background-color: #3BC278;
+    animation: .3s;
+}
+
+.progressfood {
+    position: absolute;
+    height: 100%;
+    width: 50%;
+    background-color: #3BC278;
+    animation: .3s;
+}
+
+.progresswater {
+    position: absolute;
+    height: 100%;
+    width: 50%;
+    background-color: #3BC278;
+    animation: .3s;
+}
+
+.progressstress {
+    position: absolute;
+    height: 100%;
+    width: 90%;
+    background-color: #3BC278;
+    animation: .3s;
+}
+ 
+i {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%) rotate(90deg);
+    text-shadow: 0 0 .1vw #000 ;
+    font-size: .9vw;
+    color: #fff;
+}
+
+.microphone {
+    background: #3BC278;
+}
+.health {
+    background: red;
+}
+.shield {
+   background: blue;
+}
+.food {
+    background: #F9A83B;
+}
+.water {
+    background: #3AC077;
+}
+.stress {
+    background: purple;
+}
